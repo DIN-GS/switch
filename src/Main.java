@@ -8,6 +8,7 @@ public class Main {
             case FEBRUARY, JANUARY, DECEMBER -> "Winter";
             case SEPTEMBER, OCTOBER, NOVEMBER -> "Autumn (Fall)";
             case MARCH, APRIL, MAY -> "Spring";
+            default -> "it is not a season";
         };
 
         System.out.println(season);
